@@ -1,0 +1,116 @@
+footer{
+    width: 100%;
+    height: 480px;
+    font-size: 16px;
+    background: #000000;
+    padding: 5.5em 0;
+    z-index: 0;
+}
+.foot{
+    display: flex;
+    height:80%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.foot1{
+    display: flex;
+    width: 100%;
+    height:100%;
+    padding: 0%;
+    margin: 0%;
+}
+.fooitem{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0%;
+}
+.fooitem p{
+    display: flex;
+    width: 90%;
+    padding-top: 15%;
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.7);
+}
+.fooitem h2{
+    color: #fff;
+    height: 10%;
+}
+.fooitem ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 25%;
+    }
+.fooitem li{
+    margin-bottom: 10px;
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+.fooitem a{
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+}
+.fooitem i{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 26px;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+.foocen{
+    display: flex;
+    height: 30%;
+    color: rgba(255, 255, 255, 0.6);
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.rer{
+    display:block;
+    width: 100%;
+    height: 85%;
+    padding: 0%;
+    margin: 0%;
+}
+.rer ul{
+    display: inline-block !important;
+    width: 100%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: 92%;
+}
+.rer li{
+    display: flex !important;
+    width: 100%;
+}
+.rer a{
+    display: table !important;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    background-color:#000 !important;
+    font-size: 18px;
+    text-decoration: none;
+    height: 40px;
+    text-align: start;
+    line-height: 1.5;
+}
+.rer i{
+    font-size: 20px;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    padding-right: 10px;
+}
